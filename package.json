@@ -1,0 +1,34 @@
+{
+  "name": "mongoose-cuid",
+  "version": "1.0.0",
+  "description": "Using cuid to generate collision-resistant ids in your schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ricardohbin/mongoose-cuid.git"
+  },
+  "keywords": [
+    "cuid",
+    "mongoose",
+    "unique",
+    "uuid",
+    "guid",
+    "id",
+    "collision",
+    "scaling",
+    "performance"
+  ],
+  "author": "Ricardo Bin <ricardohbin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardohbin/mongoose-cuid/issues"
+  },
+  "homepage": "https://github.com/ricardohbin/mongoose-cuid",
+  "dependencies": {
+    "cuid": "^1.2.5",
+    "mocha": "^2.2.5"
+  }
+}
